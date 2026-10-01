@@ -100,7 +100,7 @@ form.addEventListener("submit",function (event) {
         output.textContent = "error";
     } else {
        items.push(nameinput.value)
-       //list.innerHTML = "";
+       list.innerHTML = "";
        items.forEach(function (item, index) {
         const li = document.createElement("li");
         li.textContent = item
