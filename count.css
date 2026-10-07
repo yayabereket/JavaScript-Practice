@@ -29,3 +29,6 @@ button{
 button:hover{
     transform: scale(1.1);
 }
+#welcome-el{
+     margin: 30px;
+}
